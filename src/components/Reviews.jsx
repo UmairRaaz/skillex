@@ -12,21 +12,21 @@ const Reviews = () => {
 
   const slidesPerView = isMobile ? 1 : 3;
   return (
-    <div id="reviews" className="py-20 max-w-7xl mx-auto bg-[#f9f5f1]  ">
-      <div className="md:w-[80%] w-full px-10 md:px-0 mx-auto h-full">
+    <div id="reviews" className="py-20 max-w-7xl mx-auto bg-[#f9f5f1]">
+      <div className="md:w-[80%] w-full px-10 md:px-0 mx-auto">
         <div className="">
           <h1 className="text-center text-3xl font-semibold tracking-widest ">
             What our client says{" "}
             <span className="text-[#8cbe75] text-3xl">.</span>
           </h1>
         </div>
-        <div className="md:p-10 mt-10 md:mt-0 md:h-[60vh] h-[40vh]">
+        <div className="md:p-10 mt-10 md:mt-0 ">
           <Swiper
             slidesPerView={slidesPerView}
             spaceBetween={50}
-            pagination={{
-              clickable: true,
-            }}
+            // pagination={{
+            //   clickable: true,
+            // }}
             modules={[Pagination]}
             className="mySwiper"
           >

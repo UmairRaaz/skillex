@@ -8,8 +8,8 @@ import { useMediaQuery } from 'react-responsive';
 const WhatAreWe = () => {
   const isLargeScreen = useMediaQuery({ query: '(min-width: 768px)' });
   return (
-    <div id="about" className="pt-24 mt-20 md:mt-0 max-w-7xl mx-auto bg-[#f9f5f1]  min-h-screen ">
-      <div className="w-[80%] mx-auto min-h-screen ">
+    <div id="about" className="pt-24 mt-20 md:mt-0 max-w-7xl mx-auto bg-[#f9f5f1] md:mb-20 ">
+      <div className="w-[80%] mx-auto">
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}

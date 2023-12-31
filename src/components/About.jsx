@@ -8,8 +8,8 @@ import { useMediaQuery } from 'react-responsive';
 const About = () => {
   const isLargeScreen = useMediaQuery({ query: '(min-width: 768px)' });
   return (
-    <div id="courses" className="max-w-7xl mx-auto min-h-screen bg-[#f9f5f1]">
-      <div className="w-[80%] mx-auto min-h-screen  flex flex-col">
+    <div id="courses" className="max-w-7xl md:mb-20 mx-auto bg-[#f9f5f1]">
+      <div className="w-[80%] mx-auto flex flex-col">
         <h1 className="mt-10 md:mb-0 mb-10 text-center text-4xl h-10 w-full ">
           Unlimited access to 100+ instructors
         </h1>

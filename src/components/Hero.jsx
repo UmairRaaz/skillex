@@ -14,8 +14,8 @@ const Hero = () => {
     setHoveredIndex(null);
   };
   return (
-    <div id="home" className="w-full mx-auto min-h-screen md:overflow-hidden">
-      <div className="w-[80%] mx-auto min-h-screen flex md:flex-row flex-col relative">
+    <div id="home" className="w-full mx-auto md:mb-24 md:mt-14 md:overflow-hidden">
+      <div className="w-[80%] mx-auto flex md:flex-row flex-col relative">
         <div className="md:w-[35%] w-full p-4">
           <motion.div
           initial={{y: 200, opacity:0}}
